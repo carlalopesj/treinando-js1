@@ -9,11 +9,11 @@ img = document.getElementById('imagem');
 if (horas >= 6 && horas < 12) {
     h3.innerHTML = ('Esta de dia...')
     body.style.backgroundColor = '#8585f3';
-    img.setAttribute('src', './imagens/dia.jpg');
+    img.setAttribute('src', 'exercicio/imagens/dia.jpg');
 } else if(horas >= 12 && horas < 18) {
     h3.innerHTML = ('Esta de tarde...')
     body.style.backgroundColor = '#DAA520';
-    img.setAttribute('src', './imagens/tarde.jpg');
+    img.setAttribute('src', 'exercicio/imagens/tarde.jpg');
 } else {
     h3.innerHTML = ('Esta de noite...')
     body.style.backgroundColor = '#4B0082';
