@@ -17,5 +17,5 @@ if (horas >= 6 && horas < 12) {
 } else {
     h3.innerHTML = ('Esta de noite...')
     body.style.backgroundColor = '#4B0082';
-    img.setAttribute('src', './imagens/noite.jpg');
+    img.setAttribute('src', '../imagens/noite.jpg');
 }
